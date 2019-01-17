@@ -7,6 +7,17 @@ body {
     height: 100%;
 }
 
+form {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+input {}
+    padding: .5em 0em .5em 0em;
+}
+
 #header {
     background: #ffffff;
     color: #777777;
