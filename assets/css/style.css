@@ -115,6 +115,7 @@ input {
     color: #ffffff;
     margin: 1em 2em 1em 0em;
     flex:none;
+    position: relative;
 }
 
 .shortcutTitle {
@@ -122,9 +123,11 @@ input {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 2em;
     text-align: center;
-    margin-top: 5em;
     box-sizing: border-box;
     padding: .5em 0em .5em 0em;
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
 }
 
 .clearfix::after {
